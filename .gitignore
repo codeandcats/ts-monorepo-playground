@@ -1,0 +1,9 @@
+# MacOS
+.DS_Store
+
+# Node
+node_modules
+
+# Parcel
+dist
+.cache

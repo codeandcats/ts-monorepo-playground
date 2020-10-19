@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "noEmit": false,
+    "strict": true,
+    "target": "ES3",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@mono/shared/*": ["../shared/src/*"]
+    },
+    "types": ["node"]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./node_modules/@types/webpack"
+  ]
+}
